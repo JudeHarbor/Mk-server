@@ -2,7 +2,7 @@ const mineflayer = require('mineflayer');
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'walleye.aternos.host',
+    host: 'whitebait.aternos.host',
     port: 15700, // check this in Aternos dashboard
     username: 'TheEmperor123'
   });
