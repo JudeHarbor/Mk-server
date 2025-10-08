@@ -8,10 +8,10 @@ app.listen(3000, () => console.log('🌍 Web server running on port 3000'));
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'silverside.aternos.host',
+    host: 'dolphin.aternos.host',
     port: 15700, // check this in Aternos dashboard
     username: 'TheEmperor',
-    version: '1.21.5',
+    version: '1.20.1',
     auth: 'offline'
   });
 
