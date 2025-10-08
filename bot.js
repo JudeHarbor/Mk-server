@@ -11,7 +11,8 @@ function createBot() {
     host: 'silverside.aternos.host',
     port: 15700, // check this in Aternos dashboard
     username: 'TheEmperor',
-    Version: '1.21.5'
+    version: '1.21.5',
+    auth: 'offline'
   });
 
   bot.once('spawn', () => {
