@@ -10,7 +10,8 @@ function createBot() {
   const bot = mineflayer.createBot({
     host: 'HumanEmpire.aternos.me',
     port: 15700, // check this in Aternos dashboard
-    username: 'TheEmperor'
+    username: 'TheEmperor',
+    Version: '1.21.5'
   });
 
   bot.once('spawn', () => {
